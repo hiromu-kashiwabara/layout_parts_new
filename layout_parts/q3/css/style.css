@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+table {
+  width: 100%;
+  table-layout: fixed;
+}
 
-/* 回答はここに書いてね */
+table th {
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px;
+  color: white;
+  border: solid 1px #dedede;
+}
+
+table td {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: solid 1px #dedede;
+  text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #ecf1f2;
+}
+
+tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
+

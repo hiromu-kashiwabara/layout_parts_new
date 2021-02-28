@@ -1,5 +1,91 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.back {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+  position: relative;
+}
 
-/* 回答はここに書いてね */
+.minibox {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.one {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 10;
+}
+
+.two {
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 20;
+}
+
+.three {
+  background-color: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index: 30;
+}
+
+.four {
+  background-color: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 40;
+}
+
+.five {
+  background-color: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 50;
+}
+
+.six {
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 60;
+}
+
+.seven {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 70;
+}
+
+.eight {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 80;
+}
+
+.nine {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.eight::after {
+  content: "";
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 80px;
+  top: 0px;
+}
