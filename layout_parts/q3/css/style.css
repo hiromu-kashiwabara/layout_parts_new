@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-table {
+.table {
   width: 100%;
   table-layout: fixed;
 }
 
-table th {
+.table th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
@@ -14,7 +14,7 @@ table th {
   border: solid 1px #dedede;
 }
 
-table td {
+.table td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;

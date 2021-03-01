@@ -21,56 +21,56 @@
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .two {
   background-color: #7084de;
   top: 120px;
   left: 280px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .three {
   background-color: #d0ecea;
   top: 200px;
   left: 360px;
-  z-index: 3;
+  z-index: 30;
 }
 
 .four {
   background-color: #8b7a5e;
   top: 280px;
   left: 280px;
-  z-index: 4;
+  z-index: 40;
 }
 
 .five {
   background-color: #9fd6d2;
   top: 360px;
   left: 200px;
-  z-index: 5;
+  z-index: 50;
 }
 
 .six {
   background-color: #fffee4;
   top: 280px;
   left: 120px;
-  z-index: 6;
+  z-index: 60;
 }
 
 .seven {
   background-color: #deae70;
   top: 200px;
   left: 40px;
-  z-index: 7;
+  z-index: 70;
 }
 
 .eight {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
-  z-index: 8;
+  z-index: 80;
 }
 
 .nine {

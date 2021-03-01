@@ -3,11 +3,11 @@
 .margin {
   width: 940px;
   margin: 0 auto;
-}
-
-.box-2 {
   background-color: #eff3f4;
   padding: 20px;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .box_text {
