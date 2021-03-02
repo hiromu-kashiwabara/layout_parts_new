@@ -22,11 +22,11 @@
   text-align: center;
 }
 
-tbody tr:nth-child(2n) {
+.table tbody tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
