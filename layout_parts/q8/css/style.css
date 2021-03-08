@@ -13,9 +13,8 @@
   transition: 0.5s all;
 }
 
-.transition:hover .transition img {
+.transition:hover .image{
   transform: scale(1.5,1.5);
-  transition: all 0.5s;
 }
 
 .transition_text {

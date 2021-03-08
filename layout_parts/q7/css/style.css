@@ -15,8 +15,13 @@
   box-sizing: border-box;
 }
 
-.first:first-child {
+.first {
   float: left;
+  margin-left: 50px;
+}
+
+.first:first-child{
+  margin-left: 0;
 }
 
 .first:last-child {
@@ -31,6 +36,10 @@
   display: table-cell;
   vertical-align: middle;
   width: 225px;
+}
+
+.second:first-child {
+  margin-left: 0;
 }
 
 .second:last-child {
