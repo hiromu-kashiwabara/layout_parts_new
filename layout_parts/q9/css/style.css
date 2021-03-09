@@ -11,16 +11,20 @@
   border-radius: 30px;
 }
 
-.speech_text::before,.speech_text::after {
+.speech_text::after,.speech_text::before {
   position: absolute;
   left: 30px;
-  bottom: -25px;
   border-style: solid;
   border-width: 20px 20px 0px 20px;
-  border-color:#222 transparent transparent transparent;
   content: "";
   width: 0;
   height: 0;
+}
+
+.speech_text::before {
+  bottom: -25px;
+  border-color:#222 transparent transparent transparent;
+
 }
 
 .speech_text::after {

@@ -15,16 +15,16 @@
   box-sizing: border-box;
 }
 
-.first {
+.float_box {
   float: left;
   margin-left: 50px;
 }
 
-.first:first-child{
+.float_box:first-child{
   margin-left: 0;
 }
 
-.first:last-child {
+.float_box:last-child {
   float: right;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .second:first-child {
-  margin-left: 0;
+  padding-left: 0;
 }
 
 .second:last-child {
