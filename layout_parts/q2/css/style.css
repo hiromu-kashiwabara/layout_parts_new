@@ -1,19 +1,13 @@
 @charset "UTF-8";
 
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-} 
-
 .margin {
   width: 940px;
   margin: 0 auto;
-}
-
-.boxs {
   background-color: #eff3f4;
-  padding:20px;
+  padding: 20px;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .box_text {
